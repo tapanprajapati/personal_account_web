@@ -4,8 +4,10 @@
 
 .screen-container {
   flex: 1;
-  flex-direction: "row";
+  display: flex;
+  flex-direction: row;
   padding: 10px;
+  justify-content: space-around;
   margin: 30px 30px;
   height: 80%;
 }

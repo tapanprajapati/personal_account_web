@@ -1,4 +1,6 @@
+import AccountTypeScreen from "./AccountTypeScreen/AccountTypeScreen";
 import "./App.css";
+import EntryListScreen from "./EntryListScreen/EntryListScreen";
 import LauncherScreen from "./LauncherScreen/LauncherScreen";
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       </div>
       <div className="screen-container">
         <LauncherScreen />
+        <AccountTypeScreen />
+        <EntryListScreen />
       </div>
     </div>
   );
