@@ -7,6 +7,10 @@ export default class AccountTypeScreen extends Component {
   }
 
   render() {
-    return <div className="type-container"></div>;
+    return (
+      <div className="type-container">
+        <div className="type-title">{this.props.type}</div>
+      </div>
+    );
   }
 }

@@ -9,6 +9,10 @@
   z-index: 3;
 }
 
+.launcher-button-container:hover {
+  cursor: pointer;
+}
+
 .button-title {
   margin: 6px;
   color: white;

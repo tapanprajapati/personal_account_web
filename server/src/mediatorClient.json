@@ -1,0 +1,13 @@
+{
+  "response": {
+    "request": "years",
+    "type": "expense",
+    "categories": [],
+    "date": "None"
+  },
+  "data": [
+    {
+      "year": "2020"
+    }
+  ]
+}
